@@ -10,7 +10,7 @@
 -  **Performance analyzer** to compare prompt versions  
 -  **Community library** for sharing and ranking prompts  
 
-## 🛠 Technology Stack  
+##  Technology Stack  
 
 ### **Frontend**  
 - **React (Next.js)** – Web application  
