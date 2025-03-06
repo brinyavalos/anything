@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Prompt Optimization</h1>
+    <form method="POST" action="/prompt/optimize">
+        <textarea name="prompt" placeholder="Enter your prompt here" required></textarea>
+        <button type="submit">Optimize</button>
+    </form>
+    <% if (original && optimized) { %>
+        <h2>Original Prompt:</h2>
+        <p><%= original %></p>
+        <h2>Optimized Prompt:</h2>
+        <p><%= optimized %></p>
+    <% } %>
+</body>
+</html>
